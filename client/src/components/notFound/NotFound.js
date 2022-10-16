@@ -13,6 +13,7 @@ const NotFound = () => {
 };
 
 const NotFoundContainer = styled(Box)`
+    overflow: hidden;
     @keyframes moving {
         from {
             transform: translateX(-100%);
